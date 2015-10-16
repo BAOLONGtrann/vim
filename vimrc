@@ -4,6 +4,7 @@ set number
 set encoding=utf-8
 set t_Co=256
 
+" These 3 must go before Vundle
 set nocompatible
 filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
@@ -16,6 +17,9 @@ Plugin 'bling/vim-airline'
 Plugin 'edkolev/tmuxline.vim'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'christoomey/vim-tmux-navigator'
+Plugin 'scrooloose/nerdtree'
+Plugin 'scrooloose/syntastic'
+Plugin 'tpope/vim-fugitive'
 call vundle#end()
 filetype plugin indent on
 
