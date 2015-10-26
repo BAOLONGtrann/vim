@@ -33,7 +33,6 @@ Plugin 'Valloric/YouCompleteMe'
 Plugin 'bling/vim-airline'
 Plugin 'christoomey/vim-tmux-navigator'
 Plugin 'scrooloose/nerdtree'
-Plugin 'scrooloose/syntastic'
 Plugin 'tpope/vim-fugitive'
 call vundle#end()
 filetype plugin indent on
