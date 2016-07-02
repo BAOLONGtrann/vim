@@ -19,15 +19,16 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'chriskempson/base16-vim'
-Plugin 'edkolev/tmuxline.vim'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'christoomey/vim-tmux-navigator'
-Plugin 'Valloric/YouCompleteMe'
+Plugin 'edkolev/tmuxline.vim'
+"Plugin 'Valloric/YouCompleteMe'
 call vundle#end()
 filetype plugin indent on
 
 " Base16 color scheme
+set background=dark
 let base16colorspace=256
 colorscheme base16-ocean
 
@@ -36,4 +37,4 @@ let g:airline_powerline_fonts=1
 let g:airline_theme='base16'
 
 " YouCompleteMe
-let g:ycm_extra_conf_globlist = ['~/dev/*']
+"let g:ycm_extra_conf_globlist = ['~/dev/*']
